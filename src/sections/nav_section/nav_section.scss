@@ -1,0 +1,31 @@
+@use "../../style/variables.scss" as v;
+
+nav {
+  width: 100vw;
+  height: 8rem; 
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  background: rgba(0, 0, 255, 0.712); 
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  transition: v.$transition;
+}
+
+.nav__container {
+  display: flex;
+  align-items: center;
+}
+
+.nav__logo {
+  width: 7%;
+  overflow: hidden;
+}
+
+.nav__menu {
+  display: flex;
+  margin: auto;
+  gap: 4rem;
+}
